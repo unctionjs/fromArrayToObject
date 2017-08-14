@@ -1,5 +1,5 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/fromarraytoobject",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/fromArrayToObject#readme",
+  "repository": "github:unctionjs/fromArrayToObject",
+  "bugs": "https://github.com/unctionjs/fromArrayToObject/issues",
   "main": "transpiled/source.js",
   "scripts": {
     "postinstall": "npm run build && flow-typed install",
@@ -47,6 +47,8 @@
     "tap": "10.3.3"
   },
   "dependencies": {
+    "@unction/attach": "1.0.4",
+    "@unction/reducevalues": "1.0.9",
     "ramda": "0.24.1"
   }
 }
