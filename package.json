@@ -51,7 +51,7 @@
     "jest": "23.0.0"
   },
   "dependencies": {
-    "@unction/attach": "5.0.0",
+    "@unction/attach": "6.0.0",
     "@unction/reducevalues": "7.0.0",
     "ramda": "0.24.1"
   },
