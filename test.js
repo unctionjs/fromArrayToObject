@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import fromArrayToObject from "./index"
+import fromArrayToObject from "./index";
 
 test(({same, end}) => {
   same(
@@ -10,7 +10,7 @@ test(({same, end}) => {
       aaa: 1,
       bbb: 2,
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
