@@ -1,7 +1,7 @@
-/* eslint-disable flowtype/require-return-type */
+
 import {test} from "tap";
 
-import fromArrayToObject from "./index";
+import fromArrayToObject from "./";
 
 test(({same, end}) => {
   same(
