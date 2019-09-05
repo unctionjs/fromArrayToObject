@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<[KeyType, ValueType]> => ObjectType
+> Array<[string | number, A]> => ObjectType<A>
 
 Takes an array that looks like a primitive Object and turns it into a proper object. Duplicate keys get overwritten.
 
